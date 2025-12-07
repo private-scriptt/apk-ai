@@ -3309,7 +3309,7 @@
                                     <h3 style={{color:'#e2e8f0', letterSpacing:'1px'}}>SYSTEM READY</h3>
                                     <p style={{fontFamily:'Share Tech Mono'}}>Awaiting command input...</p>
                                     <p style={{fontSize:'0.8rem', color:'#475569', marginTop:'1rem'}}>
-                                        Type "-admin" to open Admin Panel
+                                        United Cyber team
                                     </p>
                                     {userTier.name === 'FREE' && (
                                         <div className="limit-progress mt-3" style={{ width: '200px', margin: '0 auto' }}>
@@ -3361,7 +3361,7 @@
                                     onChange={(e) => setInput(e.target.value)}
                                     onKeyPress={handleKeyPress}
                                     placeholder={userTier.name === 'FREE' 
-                                        ? `Free tier: ${messageCount}/${TIER_SYSTEM.FREE.messageLimit} messages left... (type "-admin" for admin panel)` 
+                                        ? `Enter system command` 
                                         : "Enter system command... (type \"-admin\" for admin panel)"}
                                     rows={1}
                                     disabled={isStreaming}
